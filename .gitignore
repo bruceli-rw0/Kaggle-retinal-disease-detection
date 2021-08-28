@@ -1,0 +1,18 @@
+# training logging and savings
+_checkpoints/*
+_loggings-semi/*
+_loggings/*
+_plots/*
+_stats/*
+
+# environment
+env/*
+
+# data
+data/*
+datasets/*
+
+notebooks
+resource
+instructions.html
+vscode.code-workspace
