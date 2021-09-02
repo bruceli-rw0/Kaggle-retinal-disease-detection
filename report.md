@@ -33,7 +33,7 @@ The original labeled training data is split into 60/10/30 train/dev/test. I rand
 
 #### F1 Score on Test Set
 | Type | ResNet50 | ResNeXt50 | ResNeSt50 |
-| - | :-: | :-: | :-: | :-: |
+| - | :-: | :-: | :-: |
 | Opacity                    | 0.9055 | 0.9258 | 0.9544 |
 | Diabetic retinopathy       | 0.9070 | 0.9310 | 0.9515 |
 | Glaucoma                   | 0.8718 | 0.9030 | 0.9329 |
@@ -58,8 +58,9 @@ I applied random flipping and rotation as the retinal images are mostly squared 
 <center><img src='./media/train-dev-plot.jpg' width=700 style="background-color:white;"><br>The solid lines represent the validation score and the dotted line represent the training score. The markers on the plot of f1 score represent the best score achieved.</center>
 
 #### Best F1 Score on Dev Set
+
 | Type | ResNet50 | ResNeXt50 | ResNeSt50 |
-| - | :-: | :-: | :-: | :-: |
+| - | :-: | :-: | :-: |
 | **Average** | 0.9264 | 0.9531 | 0.9625 |
 
 ---
@@ -94,7 +95,7 @@ Retraining Model using unlabeled data
 
 ### Model Performance on Test Set
 | Type | ResNet50 | ResNeXt50 | ResNeSt50 |
-| - | :-: | :-: | :-: | :-: |
+| - | :-: | :-: | :-: |
 | Opacity                    | 0.9266 | 0.9411 | 0.9526 |
 | Diabetic retinopathy       | 0.9254 | 0.9292 | 0.9227 |
 | Glaucoma                   | 0.8812 | 0.9154 | 0.9297 |
@@ -112,7 +113,7 @@ Based on the results, the average f1 score for ResNet50 improved from 0.8953 to 
 
 #### Best F1 Score on Dev Set
 | Type | ResNet50 | ResNeXt50 | ResNeSt50 |
-| - | :-: | :-: | :-: | :-: |
+| - | :-: | :-: | :-: |
 | **Average**        | 0.9235 | 0.9472 | 0.9461 |
 | **Part 1 Average** | 0.9264 | 0.9531 | 0.9625 |
 
